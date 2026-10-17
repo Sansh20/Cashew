@@ -13,6 +13,14 @@ analyzer:
     missing_return: warning
     # allow having TODOs in the code
     todo: ignore
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
 
 # Rules are in the same order (alphabetically) as documented at http://dart-lang.github.io/linter/lints
 # and https://github.com/dart-lang/linter/blob/master/example/all.yaml
